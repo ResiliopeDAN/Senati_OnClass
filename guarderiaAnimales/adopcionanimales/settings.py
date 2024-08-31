@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # Aplicacioens personales (debo declarar las aplicaciones que cree en este apartado)
+    'adopcion',
+    # Aplicaciones del sistema
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
