@@ -6,7 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{mascotas}}</h1>
-    <p>Hola mundo!</p>
+    <ul>{% for mascota in mascotas %}
+        <li>{{mascota}}</li>
+        {% endfor%}
+    </ul>
 </body>
 </html>
